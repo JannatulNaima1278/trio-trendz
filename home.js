@@ -33,3 +33,16 @@ makeupBtn.addEventListener('click', function(){
     'makeup.html'
     window.location.href = './makeup.html';
 })
+
+// const payBtn = document.getElementById('pay-btn');
+// payBtn.addEventListener('click', function(){
+//     'payment.html'
+//     window.location.href = './payment.html';
+// })
+
+document.querySelectorAll(".pay-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    "payment.html"
+    window.location.href = "./payment.html"; 
+  });
+});
